@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Content-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <!--Logo-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+        <!--Username-->
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--Icon-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_action_user" />
+            <!--User-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="User : "
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <!--Password-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--Icon-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_action_password" />
+            <!--Textview-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password : "
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+
+
+        <!--Login Button-->
+<Button
+    android:text="Login"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+        <!--Register-->
+<TextView
+    android:id="@+id/txtRegister"
+    android:clickable="true"
+    android:textColor="@color/colorAccent"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center_horizontal"
+    android:textStyle="italic"
+    android:textSize="18sp"
+    android:text="New Register"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
