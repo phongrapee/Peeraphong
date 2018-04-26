@@ -53,7 +53,7 @@ public class Foodadapter extends BaseAdapter{
 
         foodTextView.setText(foodStrings[position]);
         priceTextView.setText(priceStrings[position]);
-        detailStrings.setText(detailStrings[position]);
+        detaTextView.setText(detailStrings[position]);
 
         Picasso.get().load(imageStrings[position]).into(imageView);
 
