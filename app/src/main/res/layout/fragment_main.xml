@@ -31,6 +31,7 @@
                 android:src="@drawable/ic_action_user" />
             <!--User-->
             <EditText
+                android:id="@+id/edtUser"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="User : "
@@ -51,6 +52,7 @@
                 android:src="@drawable/ic_action_password" />
             <!--Textview-->
             <EditText
+                android:id="@+id/edtPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Password : "
@@ -61,6 +63,7 @@
 
         <!--Login Button-->
 <Button
+    android:id="@+id/btnLogin"
     android:text="Login"
     android:layout_width="match_parent"
     android:layout_height="wrap_content" />
